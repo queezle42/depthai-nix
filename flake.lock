@@ -1,0 +1,116 @@
+{
+  "nodes": {
+    "depthai-core": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1663588849,
+        "narHash": "sha256-1Dvgcp1Sdt4/THKs7qcLImzatqzT258VcvOq3vx4DUo=",
+        "ref": "refs/heads/main",
+        "rev": "907b8c0b5708f0e276e9006bca99359ba43dd59c",
+        "revCount": 2234,
+        "submodules": true,
+        "type": "git",
+        "url": "https://github.com/luxonis/depthai-core"
+      },
+      "original": {
+        "submodules": true,
+        "type": "git",
+        "url": "https://github.com/luxonis/depthai-core"
+      }
+    },
+    "fp16": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1552877455,
+        "narHash": "sha256-AFlV31tc0xDbr5eqWPxv8Uj3vvXR3X1ChBBOTuF6VIo=",
+        "owner": "hunter-packages",
+        "repo": "FP16",
+        "rev": "bd06e94bc59bf187782d32da8e797f8d801fbb7c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "hunter-packages",
+        "repo": "FP16",
+        "type": "github"
+      }
+    },
+    "libnop": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1649522868,
+        "narHash": "sha256-w1g+eMLTSZIwf8FgS85STBjulocy9ORsazUXEAOHTfQ=",
+        "owner": "luxonis",
+        "repo": "libnop",
+        "rev": "70d158961ce0459e32a2b1641cddc627550e5663",
+        "type": "github"
+      },
+      "original": {
+        "owner": "luxonis",
+        "ref": "develop",
+        "repo": "libnop",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1658247182,
+        "narHash": "sha256-FbtOZrHu7B0/6aWZyOjjzMV+HQ0fuuL0amuBQfUBTYY=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "8949f6984d90d3f6d16883d60ace71f04220ebb2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "8949f6984d90d3f6d16883d60ace71f04220ebb2",
+        "type": "github"
+      }
+    },
+    "psimd": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1589713121,
+        "narHash": "sha256-lV+VZi2b4SQlRYrhKx9Dxc6HlDEFz3newvcBjTekupo=",
+        "owner": "Maratyszcza",
+        "repo": "psimd",
+        "rev": "072586a71b55b7f8c584153d223e95687148a900",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Maratyszcza",
+        "repo": "psimd",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "depthai-core": "depthai-core",
+        "fp16": "fp16",
+        "libnop": "libnop",
+        "nixpkgs": "nixpkgs",
+        "psimd": "psimd",
+        "xlink": "xlink"
+      }
+    },
+    "xlink": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1660917474,
+        "narHash": "sha256-SHXbRpXjWLeSCMMiCjFBIVTJxSB7rbU9PlNjYCZyS1M=",
+        "owner": "luxonis",
+        "repo": "XLink",
+        "rev": "4f8cd1f9b2ab1b44e36c448a4b7d5d80255f5872",
+        "type": "github"
+      },
+      "original": {
+        "owner": "luxonis",
+        "ref": "develop",
+        "repo": "XLink",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
